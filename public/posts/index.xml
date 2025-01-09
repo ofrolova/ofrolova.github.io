@@ -13,7 +13,22 @@
       <link>http://localhost:1313/posts/2025-01-09-my-first-post/</link>
       <pubDate>Thu, 09 Jan 2025 09:36:13 -0500</pubDate>
       <guid>http://localhost:1313/posts/2025-01-09-my-first-post/</guid>
-      <description></description>
+      <description>&lt;h2 id=&#34;hello-world&#34;&gt;Hello World&lt;/h2&gt;
+&lt;p&gt;This is my first post.&lt;/p&gt;
+&lt;p&gt;And this is a new line.&lt;/p&gt;
+&lt;p&gt;and another one.
+and another one.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My New Post</title>
+      <link>http://localhost:1313/posts/2025-01-10-new-post/</link>
+      <pubDate>Wed, 01 Jan 2025 09:36:13 -0500</pubDate>
+      <guid>http://localhost:1313/posts/2025-01-10-new-post/</guid>
+      <description>&lt;h2 id=&#34;my-second-post&#34;&gt;My second post&lt;/h2&gt;
+&lt;p&gt;This is my second post.&lt;/p&gt;
+&lt;p&gt;And this is a new line.&lt;/p&gt;
+&lt;p&gt;and another one.
+and another one.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
