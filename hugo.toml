@@ -1,0 +1,4 @@
+baseURL = 'https://ofrolova.github.io'
+languageCode = 'en-us'
+title = 'Olga Frolova'
+theme = 'papermod'

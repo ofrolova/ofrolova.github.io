@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Olga Frolova</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Olga Frolova</description>
+    <generator>Hugo -- 0.140.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 09 Jan 2025 09:36:13 -0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First Post</title>
+      <link>http://localhost:1313/posts/2025-01-09-my-first-post/</link>
+      <pubDate>Thu, 09 Jan 2025 09:36:13 -0500</pubDate>
+      <guid>http://localhost:1313/posts/2025-01-09-my-first-post/</guid>
+      <description>&lt;h2 id=&#34;hello-world&#34;&gt;Hello World&lt;/h2&gt;
+&lt;p&gt;This is my first post.&lt;/p&gt;
+&lt;p&gt;And this is a new line.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
