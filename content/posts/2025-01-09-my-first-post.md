@@ -1,6 +1,6 @@
 +++
 date = '2025-01-09T09:36:13-05:00'
-draft = true
+draft = false
 title = 'My First Post'
 +++
 
@@ -12,5 +12,4 @@ This is my first post.
 And this is a new line.
 
 and another one.
- and another one.
- 
+and another one.
