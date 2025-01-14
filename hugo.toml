@@ -1,4 +1,22 @@
-baseURL = 'https://ofrolova.github.io'
+baseURL = '/'
 languageCode = 'en-us'
 title = 'Olga Frolova'
 theme = 'papermod'
+
+[markup]
+  [markup.goldmark.renderer]
+    unsafe=true
+
+[[menu.main]]
+    name ="Home"
+    url = "/"
+    weight = 1
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 2
+
+[[menu.main]]
+    name = "Posts"
+    url = "/posts/"
+    weight = 3
