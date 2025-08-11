@@ -6,15 +6,11 @@ showToc = false
 hidemeta = true
 comments = false
 +++
+![Olga Frolova](/images/Olga_Frolova_MBA_photo.png)
 
-<div style="display: flex; align-items: center; gap: 20px; margin-bottom: 20px;">
-  <div>
-    <h1>Olga Frolova</h1>
-    <p>I'm a Technical Project Manager with experience in managing software and web projects, including GenAI-powered prototypes. Based in Montreal, QC, I specialize in leading cross-functional teams and delivering projects on time and within budget.</p>
-  </div>
-  <img src="/images/Olga_Frolova_MBA_photo.png" alt="Olga Frolova" style="width: 250px; height: auto; border-radius: 5px;">
-</div>
+I'm a Technical Project Manager with experience in managing software and web projects, including GenAI-powered prototypes. Based in Montreal, QC, I specialize in leading cross-functional teams and delivering projects on time and within budget.
 
+## Experience
 
 ### BKOM Studios, Montreal, QC (Remote)
 **Project Manager & Producer** | February 2021 - Present
