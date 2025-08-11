@@ -1,0 +1,68 @@
+/* General text alignment */
+body {
+    text-align: left;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+li {
+    margin-left: 15px;
+}
+/* Profile container styling */
+.profile-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.profile-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 10%;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.profile-text {
+    flex: 1;
+}
+
+
+/* Specific element styling */
+.site-title {
+    font-size: 2.5rem;
+    display: flex;
+    align-items: center;
+}
+.subtitle {
+    font-size: 1.2rem;
+   
+}
+.contact-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: nowrap;
+}
+.contact-info a {
+    color: #787373;
+    text-decoration: none;
+}
+.separator {
+    color: #4f4b4b;
+}
+.linkedin-icon {
+    width: 25px;
+    vertical-align: middle;
+}
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
