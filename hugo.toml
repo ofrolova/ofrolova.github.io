@@ -45,3 +45,5 @@ url = "/images/Olga_Frolova_2024.pdf"
 [markup.goldmark]
 [markup.goldmark.renderer]
 unsafe = true
+
+ignoreLogs = ['warning-partial-superfluous-prefix']
