@@ -22,6 +22,10 @@ weight = 3
 
 
 [params]
+
+disableTwitterCards = true
+ignoreLogs = ['warning-partial-superfluous-prefix']
+
 [params.homeInfoParams]
     Title = "Welcome"
     Content = "Hi, I’m Olga Frolova - a tech professional with experience in project management, web development, and AI applications. I share my thoughts on LLMs, software development, and life in tech."

@@ -1,49 +1,32 @@
-{{- $imgs := slice }}
-{{- $imgParams := .Params.images }}
-{{- $resources := .Resources.ByType "image" -}}
-{{/* Find featured image resources if the images parameter is empty. */}}
-{{- if not $imgParams }}
-  {{- $featured := $resources.GetMatch "*feature*" -}}
-  {{- if not $featured }}{{ $featured = $resources.GetMatch "{*cover*,*thumbnail*}" }}{{ end -}}
-  {{- with $featured }}
-    {{- $imgs = $imgs | append (dict
-      "Image" .
-      "RelPermalink" .RelPermalink
-      "Permalink" .Permalink) }}
-  {{- end }}
-{{- end }}
-{{/* Use the first one of site images as the fallback. */}}
-{{- if and (not $imgParams) (not $imgs) }}
-  {{- with site.Params.images }}
-    {{- $imgParams = first 1 . }}
-  {{- end }}
-{{- end }}
-{{/* Parse page's images parameter. */}}
-{{- range $imgParams }}
-  {{- $img := . }}
-  {{- $url := urls.Parse $img }}
-  {{- if eq $url.Scheme "" }}
-    {{/* Internal image. */}}
-    {{- with $resources.GetMatch $img -}}
-      {{/* Image resource. */}}
-      {{- $imgs = $imgs | append (dict
-        "Image" .
-        "RelPermalink" .RelPermalink
-        "Permalink" .Permalink) }}
-    {{- else }}
-      {{- $imgs = $imgs | append (dict
-        "RelPermalink" (relURL $img)
-        "Permalink" (absURL $img)
-      ) }}
-    {{- end }}
-  {{- else }}
-    {{/* External image */}}
-    {{- $imgs = $imgs | append (dict
-      "RelPermalink" $img
-      "Permalink" $img
-    ) }}
-  {{- end }}
-{{- end }}
-{{- return $imgs }}
-{{- /* This is a placeholder */ -}}
-{{- return slice -}}
+{{- /* Get images from page bundle */ -}}
+{{- $page := . -}}
+{{- $images := slice -}}
+
+{{- with $page.Resources.ByType "image" -}}
+    {{- $images = . -}}
+{{- end -}}
+
+{{- /* Get featured image */ -}}
+{{- with $page.Params.cover.image -}}
+    {{- if not (or (hasPrefix . "http://") (hasPrefix . "https://")) -}}
+        {{- with resources.Get . -}}
+            {{- $images = $images | append . -}}
+        {{- end -}}
+    {{- end -}}
+{{- end -}}
+
+{{- /* Get images from page content */ -}}
+{{- $pageContent := $page.Content -}}
+{{- $imgRegex := `<img[^>]+src="([^"]+)"` -}}
+{{- $imgMatches := findRE $imgRegex $pageContent -}}
+
+{{- range $imgMatches -}}
+    {{- $imgSrc := replaceRE $imgRegex "$1" . -}}
+    {{- if not (or (hasPrefix $imgSrc "http://") (hasPrefix $imgSrc "https://")) -}}
+        {{- with resources.Get $imgSrc -}}
+            {{- $images = $images | append . -}}
+        {{- end -}}
+    {{- end -}}
+{{- end -}}
+
+{{- return $images -}}
