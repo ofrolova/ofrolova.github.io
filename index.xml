@@ -60,6 +60,16 @@ So, I decided to try Kagi, a subscription-based search engine. What sealed the d
 &lt;p&gt;&amp;ldquo;I had the pleasure of working with Olga for many years at BKOM Studios, where she consistently demonstrated her exceptional skills as a producer and project manager. She played a key role in the successful delivery of numerous games and apps, collaborating seamlessly with engineering, design, art, and other teams. Her ability to keep projects on track while maintaining high-quality standards made her an invaluable asset to the team.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Gen AI Highlights of 2024: A Year in Review</title>
+      <link>/posts/gen_ai_highlights/</link>
+      <pubDate>Thu, 12 Dec 2024 09:43:40 -0400</pubDate>
+      <guid>/posts/gen_ai_highlights/</guid>
+      <description>&lt;p&gt;As 2024 wraps up, I wanted to share a quick rundown of the major generative AI developments that stood out this year. This post is based on a presentation I gave back in December, drawing from research and hands-on experience applying these tools to projects (especially at the prototype stage) in the video game industry.&lt;/p&gt;
+&lt;p&gt;Let’s dive in.&lt;/p&gt;
+&lt;h2 id=&#34;gpt-4o-smarter-clearer-more-capable&#34;&gt;GPT-4o: Smarter, Clearer, More Capable&lt;/h2&gt;
+&lt;p&gt;The biggest leap came from &lt;a href=&#34;https://openai.com&#34;&gt;OpenAI&lt;/a&gt; with the release of GPT-4o. What makes this model stand out isn’t just its speed but how well it reasons. It walks you through its logic step by step, which makes it especially useful for complex math, debugging code, or explaining difficult concepts.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>The AI Adoption Gap</title>
       <link>/posts/the_ai_adoption_gap/</link>
       <pubDate>Tue, 05 Dec 2023 09:43:40 -0400</pubDate>
