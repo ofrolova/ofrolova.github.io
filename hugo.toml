@@ -28,7 +28,7 @@ ignoreLogs = ['warning-partial-superfluous-prefix']
 
 [params.homeInfoParams]
     Title = "Welcome"
-    Content = "Hi, I’m Olga Frolova - a tech professional with experience in project management, web development, and AI applications. I share my thoughts on LLMs, software development, and life in tech."
+    Content = "Hi, I’m Olga Frolova - Customer Success & Technical Solutions Manager with 8+ years of experience leading enterprise post-sales strategy, technical adoption, and cross-functional initiatives for global clients. Skilled at bridging business and technical needs, building API-based solutions, and driving measurable growth. Passionate about enabling customers to succeed with cutting-edge technology, with proven experience at the intersection of project management, SaaS support, and digital workflows. I share my thoughts on LLMs, software development, and life in tech."
 
 [[params.socialIcons]]
     name = "linkedin"
