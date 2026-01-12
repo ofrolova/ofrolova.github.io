@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Olga Frolova – Technical Project Manager | Driving Innovation in Tech &amp; AI on Olga Frolova</title>
-    <link>/</link>
+    <link>https://ofrolova.github.io/</link>
     <description>Recent content in Olga Frolova – Technical Project Manager | Driving Innovation in Tech &amp; AI on Olga Frolova</description>
     <generator>Hugo -- 0.148.2</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 12 Jan 2026 10:00:00 -0500</lastBuildDate>
-    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ofrolova.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Projects</title>
-      <link>/projects/</link>
+      <link>https://ofrolova.github.io/projects/</link>
       <pubDate>Mon, 12 Jan 2026 10:00:00 -0500</pubDate>
-      <guid>/projects/</guid>
+      <guid>https://ofrolova.github.io/projects/</guid>
       <description>&lt;p&gt;A collection of personal projects and interactive prototypes I&amp;rsquo;ve built to explore new technologies and share practical tools.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;personal-project-hub&#34;&gt;Personal Project Hub&lt;/h2&gt;
@@ -36,9 +36,9 @@
     </item>
     <item>
       <title>How I Use Cursor as a Technical Project Manager: A Step-by-Step</title>
-      <link>/posts/how-i-use-cursor-as-a-technical-project-manager/</link>
+      <link>https://ofrolova.github.io/posts/how-i-use-cursor-as-a-technical-project-manager/</link>
       <pubDate>Thu, 30 Oct 2025 09:43:40 -0400</pubDate>
-      <guid>/posts/how-i-use-cursor-as-a-technical-project-manager/</guid>
+      <guid>https://ofrolova.github.io/posts/how-i-use-cursor-as-a-technical-project-manager/</guid>
       <description>&lt;p&gt;How I Use Cursor as a Technical Project Manager: A Step-by-Step
 AI-Driven Workflow For the past two years, I&amp;rsquo;ve managed projects with an
 AI-first, system-led mindset. I train my team to work the same way. At
@@ -52,18 +52,18 @@ reformat the same content twice.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Why I Switched to Kagi (And What Happened Next)</title>
-      <link>/posts/kagi/</link>
+      <link>https://ofrolova.github.io/posts/kagi/</link>
       <pubDate>Fri, 08 Aug 2025 09:43:40 -0400</pubDate>
-      <guid>/posts/kagi/</guid>
+      <guid>https://ofrolova.github.io/posts/kagi/</guid>
       <description>&lt;p&gt;I switched to Kagi in March 2025 - I’d been disappointed for a while and wanted a fresh approach to searching online. I decided it was time for a change after three major frustrations with Google: the flood of low-quality and spammy websites cluttering my search results, the constant interruption from targeted advertisements during research, and serious concerns about how my personal data was being collected and used. I wanted a search engine that could deliver trustworthy information without tracking my every move or prioritizing advertisers over actual answers.
 So, I decided to try Kagi, a subscription-based search engine. What sealed the deal was learning about their privacy protections: Kagi proxies all images to prevent tracking from third parties and uses HTTPS encryption across their platform.&lt;/p&gt;</description>
     </item>
     <item>
       <title>About Me</title>
-      <link>/about/</link>
+      <link>https://ofrolova.github.io/about/</link>
       <pubDate>Thu, 09 Jan 2025 10:08:45 -0500</pubDate>
-      <guid>/about/</guid>
-      <description>&lt;p&gt;&lt;img alt=&#34;Olga Frolova&#34; loading=&#34;lazy&#34; src=&#34;/images/Olga_Frolova_MBA_photo.png&#34;&gt;&lt;/p&gt;
+      <guid>https://ofrolova.github.io/about/</guid>
+      <description>&lt;p&gt;&lt;img alt=&#34;Olga Frolova&#34; loading=&#34;lazy&#34; src=&#34;https://ofrolova.github.io/images/Olga_Frolova_MBA_photo.png&#34;&gt;&lt;/p&gt;
 &lt;p&gt;I&amp;rsquo;m a Technical Project Manager with experience in managing software and web projects, including GenAI-powered prototypes. Based in Montreal, QC, I specialize in leading cross-functional teams and delivering projects on time and within budget.&lt;/p&gt;
 &lt;h2 id=&#34;experience&#34;&gt;Experience&lt;/h2&gt;
 &lt;h3 id=&#34;bkom-studios-montreal-qc-remote&#34;&gt;BKOM Studios, Montreal, QC (Remote)&lt;/h3&gt;
@@ -79,9 +79,9 @@ So, I decided to try Kagi, a subscription-based search engine. What sealed the d
     </item>
     <item>
       <title>Work with Me</title>
-      <link>/work_with_me/</link>
+      <link>https://ofrolova.github.io/work_with_me/</link>
       <pubDate>Thu, 09 Jan 2025 10:08:45 -0500</pubDate>
-      <guid>/work_with_me/</guid>
+      <guid>https://ofrolova.github.io/work_with_me/</guid>
       <description>&lt;p&gt;I am available for consulting.&lt;/p&gt;
 &lt;p&gt;Organizations I&amp;rsquo;ve worked with include: Hasbro, Mattel, Lego, AMC Network, Paizo Inc, SunLife, Desjardins, and LPL Financial.&lt;/p&gt;
 &lt;h2 id=&#34;services-i-offer&#34;&gt;Services I Offer&lt;/h2&gt;
@@ -103,9 +103,9 @@ So, I decided to try Kagi, a subscription-based search engine. What sealed the d
     </item>
     <item>
       <title>Gen AI Highlights of 2024: A Year in Review</title>
-      <link>/posts/gen_ai_highlights/</link>
+      <link>https://ofrolova.github.io/posts/gen_ai_highlights/</link>
       <pubDate>Thu, 12 Dec 2024 09:43:40 -0400</pubDate>
-      <guid>/posts/gen_ai_highlights/</guid>
+      <guid>https://ofrolova.github.io/posts/gen_ai_highlights/</guid>
       <description>&lt;p&gt;As 2024 wraps up, I wanted to share a quick rundown of the major generative AI developments that stood out this year. This post is based on a presentation I gave back in December, drawing from research and hands-on experience applying these tools to projects (especially at the prototype stage) in the video game industry.&lt;/p&gt;
 &lt;p&gt;Let’s dive in.&lt;/p&gt;
 &lt;h2 id=&#34;gpt-4o-smarter-clearer-more-capable&#34;&gt;GPT-4o: Smarter, Clearer, More Capable&lt;/h2&gt;
@@ -113,9 +113,9 @@ So, I decided to try Kagi, a subscription-based search engine. What sealed the d
     </item>
     <item>
       <title>The AI Adoption Gap</title>
-      <link>/posts/the_ai_adoption_gap/</link>
+      <link>https://ofrolova.github.io/posts/the_ai_adoption_gap/</link>
       <pubDate>Tue, 05 Dec 2023 09:43:40 -0400</pubDate>
-      <guid>/posts/the_ai_adoption_gap/</guid>
+      <guid>https://ofrolova.github.io/posts/the_ai_adoption_gap/</guid>
       <description>&lt;h1 id=&#34;the-ai-adoption-gap&#34;&gt;The AI Adoption Gap&lt;/h1&gt;
 &lt;p&gt;Early on in my career as a producer in the game industry, I was already experimenting with AI tools, long before &amp;ldquo;generative AI&amp;rdquo; became the talk of the town. I had a hunch that LLMs held enormous potential not just for programming but for every aspect of game development.&lt;/p&gt;
 &lt;h2 id=&#34;from-debugging-to-art-the-ai-adoption-gap&#34;&gt;From Debugging to Art: The AI Adoption Gap&lt;/h2&gt;
