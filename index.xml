@@ -18,18 +18,6 @@
 &lt;h2 id=&#34;personal-project-hub&#34;&gt;Personal Project Hub&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;A workspace for documentation and interactive demos&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;A full-stack Next.js application that combines markdown documentation with interactive React prototypes. Built to streamline the workflow of creating PRDs, technical specs, and shareable demos.&lt;/p&gt;
-&lt;h3 id=&#34;features&#34;&gt;Features&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Documents&lt;/strong&gt;: Markdown editor with live preview for writing PRDs and technical documentation&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Prototypes&lt;/strong&gt;: Interactive React components including:
-&lt;ul&gt;
-&lt;li&gt;Feature Prioritization Matrix (Impact vs Effort analysis)&lt;/li&gt;
-&lt;li&gt;Sprint Capacity Planner (Team resource allocation)&lt;/li&gt;
-&lt;li&gt;Technical Debt Tracker (Priority management)&lt;/li&gt;
-&lt;li&gt;Release Roadmap (Timeline visualization)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
 &lt;h3 id=&#34;tech-stack&#34;&gt;Tech Stack&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Next.js 14 (App Router)&lt;/li&gt;
