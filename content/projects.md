@@ -17,14 +17,6 @@ A collection of personal projects and interactive prototypes I've built to explo
 
 A full-stack Next.js application that combines markdown documentation with interactive React prototypes. Built to streamline the workflow of creating PRDs, technical specs, and shareable demos.
 
-### Features
-- **Documents**: Markdown editor with live preview for writing PRDs and technical documentation
-- **Prototypes**: Interactive React components including:
-  - Feature Prioritization Matrix (Impact vs Effort analysis)
-  - Sprint Capacity Planner (Team resource allocation)
-  - Technical Debt Tracker (Priority management)
-  - Release Roadmap (Timeline visualization)
-
 ### Tech Stack
 - Next.js 14 (App Router)
 - TypeScript
